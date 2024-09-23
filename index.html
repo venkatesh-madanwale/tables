@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>Table 1</h1>
+        <table border="1">
+            <caption><b>HTML Table Example</b></caption>
+            <tr>
+                <th colspan="2">Student Name</th>
+                <th colspan="3">Labs</th>
+                <th rowspan="2">Avg</th>
+            </tr>
+            <tr>
+                <th>First</th>
+                <th>Last</th>
+                <th>Lab1</th>
+                <th>Lab2</th>
+                <th>Lab3</th>
+            </tr>
+            <tr>
+                <td>Sol</td>
+                <td>Rosenberg</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100.0</td>
+            </tr>
+            <tr>
+                <td>Frank</td>
+                <td>Rizzo</td>
+                <td>50</td>
+                <td>60</td>
+                <td>90</td>
+                <td>66.6</td>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>Kam</td>
+                <td>90</td>
+                <td>80</td>
+                <td>60</td>
+                <td>76.6</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Summary</th>
+                <th>Avg</th>
+                <td>80.0</td>
+                <td>80.0</td>
+                <td>83.3</td>
+                <td>81.1</td>
+            </tr>
+            <tr>
+                <th>Min</th>
+                <td>50</td>
+                <td>60</td>
+                <td>60</td>
+                <td>66.6</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h1>Table 2</h1>
+            <table border="1">
+            <tr>
+                <th rowspan="2">Heading</th>
+                <th>Students</th>
+                <th colspan="3">Details</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Roll Number</th>
+            </tr>
+            <tr>
+                <th rowspan="4">Student list</th>
+                <td>1</td>
+                <td>Victor</td>
+                <td>Computer Science</td>
+                <td>12345</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Williams</td>
+                <td>Electronics</td>
+                <td>23456</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Harry</td>
+                <td>Electrical</td>
+                <td>34567</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Rick</td>
+                <td>Civil</td>
+                <td>45678</td>
+            </tr>
+        </table>
+    </div>
+    <h1>Table 3</h1>
+    <div>
+        <table border="1" style="width: 100%; padding: 10px;border-radius: 5px; background-origin: padding-box; align-items: center">
+            <tr>
+                <th>Header column 1</th>
+                <th>Header column 2</th>
+                <th>Header column 3</th>
+                <th>Header column 4</th>
+            </tr>     
+            <tr>
+                <td>Row-Item1</td>
+                <td>Row-Item2</td>
+                <td rowspan="2">
+                    <table border="1" style="width:100%; padding:10px;border-radius: 5px;background-origin: padding-box; align-items: center">
+                        <caption><b>Row 2: Nested Table-1</b></caption>
+                        <tr>
+                            <td>Row 1 header</td>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <td>Row 2 header</td>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <td>Row 3 header</td>
+                            <td>item</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Row-Item4 A second line</td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" style="width:100%; padding: 10px;border-radius: 5px;background-origin: padding-box; align-items: center">
+                        <caption><b>Row3 Nest-Table2 </b></caption>
+                        <tr>
+                            <td>Row1 header</td>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <td>Row2 header</td>
+                            <td>item</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Row3-Item2</td>
+                <td rowspan="2">Row3-Item3</td>   
+            </tr>
+            <tr>
+                <td>Row4-Item1</td>
+                <td>Row4-Item2</td>
+                <td>Row4-Item3</td>
+            </tr>
+            <tr>
+                <td colspan="4">Row5-Last row of outer table</td>
+            </tr>
+        </table>
+    </div>  
+    <div>
+        <h1>Table  4</h1>
+        <table border="1">
+            <caption><b>Weather Station</b></caption>
+            <tr>
+                <th>Station</th>
+                <th colspan="2">Temperature</th>
+                <th rowspan="2">Humidity</th>
+                <th rowspan="2">Weather</th>
+            </tr>
+            <tr>
+                <th>Max</th>
+                <th>Min</th>
+            </tr>
+            <tr>
+                <td>USA</td>
+                <td>24</td>
+                <td>19</td>
+                <td>60%</td>
+                <td>cloudy</td>
+            </tr>
+            <tr>
+                <td>Germany</td>
+                <td>5</td>
+                <td>-1</td>
+                <td>70%</td>
+                <td>Rainy</td>
+            </tr>
+        </table>
+    </div>  
+    <div style="background-color: rgb(65, 250, 102);">
+        <h1>Table 5</h1>
+        <table border="1">
+            <caption><b>Computer Books</b></caption>
+            <tr>
+                <th>COVER PAGE</th>
+                <th>BOOK DETAILS</th>
+                <th>PRICE</th>
+                <th>REMARK</th>
+            </tr>
+            <tr>
+                <td><img src="./1.jpg" alt="Sorry"></td>
+                <td>Book- C programming <br>Author: A.kamthen</td>
+                <td>INR <br>400.0</td>
+                <td><a href="#">Add to cart</a></td>
+            </tr>
+            <tr>
+                <td><img src="./2.jpg" alt="Sorry"></td>
+                <td>Book- C++ <br> Author: balaguruswami</td>
+                <td>INR <br>350.0</td>
+                <td><a href="#">Add to cart</a></td>
+            </tr>
+    
+            <tr>
+                <td><img src="./3.jpg" alt="Sorry"></td>
+                <td>Book- java <br>Author: Herbert schildt</td>
+                <td>INR <br>540.0</td>
+                <td><a href="#">Add to cart</a></td>
+            </tr>
+            <tr>
+                <td><img src="./4.jpg" alt="Sorry"></td>
+                <td>Book- W.T <br>Author: black box</td>
+                <td>INR <br>555.0</td>
+                <td><a href="#">Add to cart</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
